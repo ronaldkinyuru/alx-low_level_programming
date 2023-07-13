@@ -2,7 +2,7 @@
 
 /**
  * * main - program that prints a value
- * * Description: 'with proper grammar, but the outcome is a piece of art,'
+ * * Description: 'with proper grammar, but the outcome is a piece of art,
  * * Return: Always O (Success)
  * */
 
