@@ -1,11 +1,11 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
- * Description -prints the values on the terminal(screen)
- * Return :Always 0(success)
+ * Return : 1
  */
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 	return (1);
 }
