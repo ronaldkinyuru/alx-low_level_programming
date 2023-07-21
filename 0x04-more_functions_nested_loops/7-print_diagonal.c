@@ -1,28 +1,22 @@
 #include "main.h"
-
 /**
-  * print_diagonal - prints diagonal
-  * @n: number of times to print diagonal
-  * Return: void
-  */
+ * print_diagonal - draw a diagonal
+ * @n: number
+ * Return: 0
+ */
 void print_diagonal(int n)
 {
 	int a, b;
 
 	if (n <= 0)
-	{
 		_putchar('\n');
-	}
-	else
+	for (a = 0; a < n; a++)
 	{
-		for (a = 1; a <= n; a++)
+		for (b = 0; b < a; b++)
 		{
-			for (b = 0; b < a; b++)
-			{
-				_putchar(' ');
-			}
-			_putchar('\\');
-			_putchar('\n');
-		}
+			_putchar(' ');
+	}
+	_putchar('\\');
+	_putchar('\n');
 	}
 }
