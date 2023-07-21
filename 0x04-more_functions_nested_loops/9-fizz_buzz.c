@@ -28,8 +28,9 @@ int main(void)
 		}
 		printf(" ");
 	}
-
-
+	if (num != 100)
+	{
 		printf("\n");
+	}
 		return (0);
 }
