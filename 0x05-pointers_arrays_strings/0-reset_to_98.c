@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * main - updates pointed valuue
+  * reset_to_98 - updates pointed valuue
   * @n:pointed value
   * Return:0
   */
