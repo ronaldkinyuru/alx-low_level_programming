@@ -13,18 +13,18 @@ void puts_half(char *str)
 	{
 		counter++;
 	}
-	if (counter % 2 != 0) /* checks odd*/
-	{
-		n = (counter - 1) / 2;
-	}
-	else /*even*/
+	if (counter % 2 == 0) /* checks even*/
 	{
 		n = counter / 2;
 	}
+	else /*odd*/
+	{
+		n = (counter - 1) / 2;
+	}
 	while (str[n] != '\0')
-		{
+	{
 			_putchar(str[n]);
 			n++;
-		}
+	}
 	_putchar('\n');
 }
