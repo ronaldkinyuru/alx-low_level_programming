@@ -6,7 +6,7 @@
   */
 void puts_half(char *str)
 {
-	int counter, n, j;
+	int counter, n;
 
 	counter = 0;
 	while (str[counter] != '\0') /* counts string chars*/
@@ -16,20 +16,15 @@ void puts_half(char *str)
 	if (counter % 2 != 0) /* checks odd*/
 	{
 		n = (counter - 1) / 2;
-		while (str[n] != '\0')
+	}
+	else /*even*/
+	{
+		n = counter / 2;
+	}
+	while (str[n] != '\0')
 		{
 			_putchar(str[n]);
 			n++;
 		}
-	}
-	else
-	{
-		j = counter / 2;
-		while (str[j] != '\0')
-		{
-			_putchar(str[j]);
-			j++;
-		}
-	}
 	_putchar('\n');
 }
