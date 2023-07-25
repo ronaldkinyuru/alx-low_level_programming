@@ -16,7 +16,7 @@ void puts_half(char *str)
 	if (counter % 2 != 0) /* checks odd*/
 	{
 		n = (counter - 1) / 2;
-		while (n < counter)
+		while (str[n] != '\0')
 		{
 			_putchar(str[n]);
 			n++;
@@ -25,7 +25,7 @@ void puts_half(char *str)
 	else
 	{
 		j = counter / 2;
-		while (j < counter)
+		while (str[j] != '\0')
 		{
 			_putchar(str[j]);
 			j++;
