@@ -15,11 +15,12 @@ void rev_string(char *s)
 	}
 	i--;
 	j = 0;
-	while(i >= j)
+	while (i >= j)
 	{
 		char temp = s[j]; /* Use a temporary variable to swap characters*/
+
 		s[j] = s[i];
-                s[i] = temp;
+		s[i] = temp;
 		i--;
 		j++;
 	}
