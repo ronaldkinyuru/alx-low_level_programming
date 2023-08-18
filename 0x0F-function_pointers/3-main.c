@@ -19,6 +19,8 @@ int main(int argc, char *argv[])
 		exit (98);
 
 	}
+	if (get_op_func(operator)
+
 /**
 *	op_t *ptr;
 *	op_t mypoint;
